@@ -4,6 +4,11 @@ In order to run the API follow the steps bellow :
 1. Pull the repository. 
 2. From repoditory folder run : 
     ```
+    docker-compose build
+    ```
+    So to build the image with all requirements, set the working directory and copy the files.
+    Afterwards run:
+    ```
     docker-compose up -d
     ```
     Using -d flag will help so the program runs in the background.
