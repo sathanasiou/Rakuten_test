@@ -30,4 +30,4 @@ In order to run the API follow the steps bellow :
     docker exec -it rakuten_test_container curl http://localhost:5000/find_company/<mac-address>
     ```
 
-There are also other ways to implement that API for example using http.client python, the way I implemented it is using python and flask framework. It is not the optimal or the way I would recommend for production use due to security risks, also another security risk is due to authetication been inside the request uri of macadress.io API. Data are returned in a json format including company name and response status code.# Rakuten_test
+There are also other ways to implement that API for example using http.client python, the way I implemented it is using python and flask framework. It is not the optimal or the way I would recommend for production use due to security risks, also another security risk is due to authetication been inside the request uri of macadress.io API. Data are returned in a json format including company name and response status code.
